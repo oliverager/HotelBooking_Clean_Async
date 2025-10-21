@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf601a4-4adf-4838-8fd2-1648222f0f8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HotelBooking.UnitTests/BookingManager_MoqTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelBooking.WebApi.UnitTests/Controllers/BookingsController_Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelBooking.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HotelBooking.sln" afterDir="false" />
+    <list default="true" id="6cf601a4-4adf-4838-8fd2-1648222f0f8d" name="Changes" comment="Start Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +64,24 @@
       <option name="presentableId" value="Default" />
       <updated>1758007322739</updated>
       <workItem from="1758007324064" duration="2883000" />
-      <workItem from="1758010448500" duration="1347000" />
+      <workItem from="1758010448500" duration="8640000" />
     </task>
+    <task id="LOCAL-00001" summary="Start Commit">
+      <option name="closed" value="true" />
+      <created>1758013145299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758013145299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start Commit" />
   </component>
 </project>

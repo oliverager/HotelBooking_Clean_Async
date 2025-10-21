@@ -33,14 +33,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 
-    // Initialize the database.
-    using (var scope = app.Services.CreateScope())
-    {
-        var services = scope.ServiceProvider;
-        var dbContext = services.GetService<HotelBookingContext>();
-        var dbInitializer = services.GetService<IDbInitializer>();
-        dbInitializer.Initialize(dbContext);
-    }
+    // Seed
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<HotelBookingContext>();
+    var seeder = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+    seeder.Initialize(db);
 }
 
 app.UseHttpsRedirection();
@@ -50,3 +47,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program
+{
+}
